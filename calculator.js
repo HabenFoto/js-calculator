@@ -1,4 +1,15 @@
-
+//check input is valid
+function number_validation(number) {
+  if (isNaN(number)) {
+    return false;
+  }
+  if (number == null || number === ' ') {
+    return false;
+  }
+  else {
+    return Number(number)
+  }
+}
 
 const addition = {
   num1: 3,
